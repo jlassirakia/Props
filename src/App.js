@@ -1,25 +1,36 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Prof from './Profile/Prof';
+
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+
+    <div class="row no-gutters">
+  <div >  
+     <Prof FullName="Emmanuel Macron" 
+     Bio=" a né le 21 décembre 1977 à Amiens, est un haut fonctionnaire, banquier d'affaires et homme d'État français.  "
+      profession="Ingénieur "   > <img src="/macron.jpg" alt="react" ></img>  </Prof>
+               
+          </div>
+  <div class="col-6 col-md-4"></div>
+</div>
+   
+   
+  
+
+
+   
+
+
+
+   
+  
   );
-}
+    }
+  
+
 
 export default App;
