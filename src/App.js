@@ -2,34 +2,36 @@
 import './App.css';
 import Prof from './Profile/Prof';
 
+const HandelName=(a)=>{
+  alert(a);
+
+}
+
 
 function App() {
   
-  return (
+  return  (
+    
 
 
     <div class="row no-gutters">
-  <div >  
-     <Prof FullName="Emmanuel Macron" 
-     Bio=" a né le 21 décembre 1977 à Amiens, est un haut fonctionnaire, banquier d'affaires et homme d'État français.  "
-      profession="Ingénieur "   > <img src="/macron.jpg" alt="react" ></img>  </Prof>
+  <div className="cont"   > 
+ 
+      <h1 className="titre">Profile</h1> 
+     <Prof FullName="Diego Maradona" 
+     Bio=" né le 30 octobre 1960 à Lanús et mort le 25 novembre 2020 à Tigre, est un footballeur international argentin devenu entraîneur " HandelName={HandelName}
+      profession="footballeur "   HandelName={HandelName} > <img src="/maradona.jpg" alt="react" ></img>  </Prof>
                
           </div>
   <div class="col-6 col-md-4"></div>
 </div>
-   
-   
   
-
-
-   
-
-
-
-   
   
   );
-    }
+    };
+
+
+    
   
 
 

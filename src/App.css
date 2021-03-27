@@ -2,3 +2,28 @@ img{
   width: 20%;
   height: 60%;
 }
+.bt{
+  background-color: mediumslateblue;
+  color: black;
+  height: 9mm;
+  width: 30mm;
+  margin-left: 15cm ;
+}
+.titre{
+ text-align: center;
+ color:blue;
+font-size: 25;
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+  .cont{
+    border:solid ;
+    max-width: 80vw;
+    margin-left: 4cm;
+    margin-top: 2cm;
+  
+  }
+
+
